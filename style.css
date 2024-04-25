@@ -7,61 +7,81 @@
 
 ul {
     list-style-type: none;
+    margin: 10px;
 }
 
 body {
     height: 100vh;
     background-color: hsl(47, 88%, 63%);
-    flex-direction: column;
     border-radius: 10px;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    justify-content: center;
 }
 
 main {
     background-color: white;
-    padding: 2rem 2rem;
-    margin: 5rem;
+    padding: 1rem 1rem 1rem;
+    margin: 5rem auto;
     border-radius: 10px;
     border: 1px solid black;
     box-shadow: 5px 5px 0px;
-    justify-content: center;
-    flex-direction: column;
     text-align: left;
-    display: flex;
+    max-width: 600px;
+    justify-content: center;
 }
 
-main > * {
-    margin-bottom: 20px;
+.yellow-container {
+    margin: 10px;
 }
 
-img {
+
+.card {
+    padding: 10px;
+    margin: 0;
+    display:inline-block;
+
+}
+
+
+
+img.ill-art {
     border-radius: 10px;
+    width: 100%;
 }
 
+h1 {
+    margin: 10px;
+}
+
+h1:hover {
+    color:hsl(47, 88%, 63%);
+    cursor: pointer;
+    
+}
 h2{
     background-color: hsl(47, 88%, 63%);
     display: inline-block;
-    padding: 0;
+    margin: s1rem;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 p {
     color: hsl(0, 0%, 50%);
+    margin: 1rem, 1rem, 1rem;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    
+    
 }
 
 h3 {
     font-weight: 500;
+    margin: 0;
+    padding: 10px;
 }
 
 li {
     font-weight: 800;
-}
-
-h1:hover {
-    color: hsl(47, 88%, 63%);
 }
 
 .attribution { 
