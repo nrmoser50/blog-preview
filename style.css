@@ -18,13 +18,13 @@ body {
 
 main {
     background-color: white;
-    padding: 1rem 1rem 1rem;
-    margin: 5rem auto;
+    padding: 1rem 1rem;
+    margin: auto;
     border-radius: 10px;
     border: 1px solid black;
     box-shadow: 5px 5px 0px;
     text-align: left;
-    max-width: 600px;
+    max-width: 400px;
     justify-content: center;
 }
 
@@ -32,19 +32,17 @@ main {
     margin: 10px;
 }
 
-
 .card {
-    padding: 10px;
-    margin: 0;
-    display:inline-block;
-
+    display: inline-block;
+    margin-bottom: auto;
 }
 
-
-
-img.ill-art {
+.card img {
+    max-width: 100%; /* Ensure the image does not exceed the container width */
+    height: auto; /* Maintain aspect ratio */
+    display: flex; /* Remove default inline behavior */
+    margin: 1rem 1rem 1rem; /* Center the image horizontally */
     border-radius: 10px;
-    width: 100%;
 }
 
 h1 {
@@ -59,7 +57,6 @@ h1:hover {
 h2{
     background-color: hsl(47, 88%, 63%);
     display: inline-block;
-    margin: s1rem;
     padding: 10px;
     border-radius: 10px;
 }
