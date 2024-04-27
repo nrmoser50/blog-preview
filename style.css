@@ -7,7 +7,9 @@
 
 ul {
     list-style-type: none;
-    margin: 10px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
 }
 
 body {
@@ -18,35 +20,34 @@ body {
 
 main {
     background-color: white;
-    padding: 1rem 1rem;
-    margin: auto;
+    padding: 20px;
+    margin: 0 auto;
     border-radius: 10px;
     border: 1px solid black;
     box-shadow: 5px 5px 0px;
-    text-align: left;
-    max-width: 400px;
-    justify-content: center;
+    max-width: 420px;
 }
 
 .yellow-container {
-    margin: 10px;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 .card {
-    display: inline-block;
-    margin-bottom: auto;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 .card img {
-    max-width: 100%; /* Ensure the image does not exceed the container width */
+    width: 100%; /* Ensure the image does not exceed the container width */
     height: auto; /* Maintain aspect ratio */
-    display: flex; /* Remove default inline behavior */
-    margin: 1rem 1rem 1rem; /* Center the image horizontally */
     border-radius: 10px;
 }
 
 h1 {
-    margin: 10px;
+    margin: 0 auto;
+    white-space: nowrap;
+    font-weight: 800;
 }
 
 h1:hover {
@@ -57,28 +58,29 @@ h1:hover {
 h2{
     background-color: hsl(47, 88%, 63%);
     display: inline-block;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
 }
 
 p {
     color: hsl(0, 0%, 50%);
-    margin: 1rem, 1rem, 1rem;
-    padding: 10px;
+    margin: 1rem 0;
+    padding: 0;
     font-size: 16px;
     font-weight: 500;
-    
+    line-height: 1.7;
     
 }
 
 h3 {
     font-weight: 500;
-    margin: 0;
-    padding: 10px;
+    margin-bottom: 20px;
+    padding: 0 auto;
 }
 
 li {
     font-weight: 800;
+    margin-right: 10px;
 }
 
 .attribution { 
